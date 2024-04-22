@@ -1,5 +1,4 @@
 'use client'
-
 import { useState } from "react";
 
 export default function Home() {
@@ -19,9 +18,12 @@ export default function Home() {
     }, 2000);
   }
 
+
+    
+
   return (
     <>
-    <main className="flex min-h-screen flex-col items-center p-8 bg-[#3c3086] text-white ">
+    <main className="flex min-h-screen flex-col items-center p-8  text-white ">
    {!result && <form className="space-y-5" onSubmit={submitHandler}>
       <div className="text-center font-bold  text-xl">
         Result
@@ -41,7 +43,7 @@ export default function Home() {
 
     {result && <div className="py-5 text-xl space-y-4 text-center pt-20">
       <div>Name: {name}</div>
-      <div className="text-yellow-300 font-semibold">Result: 98.17%</div>
+      <div className="text-yellow-300 font-semibold">Result: {Math.floor(Math.random() * (99 - 80 + 1)+80)}.10%</div>
       <div className="w-full">
         {meme && 
          <video width="300" height="auto" autoPlay loop preload="auto" className="rounded-md">
@@ -53,7 +55,7 @@ export default function Home() {
       </div>}
       {link &&  <a href=" https://wa.me/?text=https://result-check.vercel.app/" className="font-bold text-cyan-300 underline">Share</a>}
     </main>
-    <div className="p-2">Disclaimer: This is for entertainment purposes.</div>
+    <div className="p-3 text-white ">Disclaimer: This is for entertainment purposes.</div>
     </>
   );
 }
