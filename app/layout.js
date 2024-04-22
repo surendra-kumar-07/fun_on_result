@@ -5,20 +5,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "10th & 12th बोर्ड का रिजल्ट घोषित",
-  description: "10th & 12th बोर्ड का रिजल्ट घोषित 2024 ...",
+  title: "Result Check",
+  description: "10th & 12th",
   openGraph: {
-    title: 'जल्दी Result यहाँ देखे...',
-    description: '10th & 12th बोर्ड का रिजल्ट घोषित 2024 ...',
-    url: 'https://google.com',
-    siteName: "result.org",
+    title: '10th & 12th बोर्ड का रिजल्ट घोषित 2024 ...',
+    description: 'जल्दी Result यहाँ देखे...',
+    url: 'result-check.vercel.app',
+    siteName: "Result check",
     type: 'website',
-    images: [
-      {
-        url: './ogimg.png',
-        alt: "Result"
-      }
-    ]
   }
 };
 

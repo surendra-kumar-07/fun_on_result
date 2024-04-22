@@ -51,7 +51,7 @@ export default function Home() {
        }
       </div>
       </div>}
-      {link &&  <a href=" https://wa.me/?text=https://google.com" className="font-bold text-cyan-300 underline">Share</a>}
+      {link &&  <a href=" https://wa.me/?text=https://result-check.vercel.app/" className="font-bold text-cyan-300 underline">Share</a>}
     </main>
     <div className="p-2">Disclaimer: This is for entertainment purposes.</div>
     </>
