@@ -45,7 +45,7 @@ export default function Home() {
       <div className="w-full">
         {meme && 
          <video width="300" height="auto" autoPlay loop preload="auto" className="rounded-md">
-         <source src="/majak.mp4" type="video/mp4" />
+         <source src="./majak.mp4" type="video/mp4" />
          Your browser does not support the video tag.
        </video>
        }
