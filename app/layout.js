@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ogImg from '/ogimg.png'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({ children }) {
 <meta property="og:url" content="htttps//:google.com"/>
 <meta property="og:type" content="website"/>
 <meta property="og:description" content="10th & 12th बोर्ड का रिजल्ट घोषित 2024 ..."/>
-<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcejNfGNLQS8wDWuaBbBzLy94h5QgZKQb29Q&s"/>
+<meta property="og:image" content={ogImg}/>
 <meta property="og:image" content=""/>
 
       </head>
