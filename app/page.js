@@ -59,10 +59,7 @@ export default function Home() {
       </div>
       </div>}
       {link &&  <div className="text-center py-10">
-        <div className="text-xl">
-          <a href="instagram://user?username=fun.tech06">💜 जिसको 90% चाहिए वो फॉलो करो  <span className="text-cyan-300 text-2xl underline">𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦</span> 💜 </a>
           <a href=" https://wa.me/?text=https://result-check.vercel.app/" className="font-bold text-cyan-300 underline">Share</a>
-        </div>
        </div>}
     </main>
     <div className={`p-3 text-white ${link ? 'absolute bottom-0':''}`}>Disclaimer: This is only for entertainment purposes.</div>
